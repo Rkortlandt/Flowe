@@ -1,0 +1,26 @@
+<doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Flowe</title>
+    </head>
+    <body>
+      <div class="w-screen h-screen flex bg-black">
+        <main class="w-9/12 h-full flex flex-col">
+          <nav class="flex justify-left p-2">
+            <p class="w-auto h-10 bg-green-950 rounded-lg border-2 border-green-500 align-middle">Flowe</p>
+            <button class="aspect-square w-auto h-10 bg-green-950 rounded-lg border-2 border-green-500 button p-0 text-inherit">
+              +
+            </button>
+          </nav>
+          <div id="canvas-wrapper" class="w-full flex-grow relative">
+          </div>
+        </main>
+        <aside class="w-3/12 h-screen bg-black border-l-2 border-l-green-500">
+        </aside>
+      </div>
+      <script type="module" src="/src/main.ts"></script>
+    </body>
+  </html>
